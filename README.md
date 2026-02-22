@@ -5,8 +5,10 @@ Pour ce travail j'ai choisi le projet _Unveiling Children's Theory of Mind with 
 
 Un jeu de données d'IRMf  au repos prétraité provenant du _Nilearn Development fMRI_ à été sélectionné pour réaliser notre projet. Ce jeu de données d'IRMf-repos est issu d'une étude portant sur le développement de régions cérébrales sociales fonctionnellement spécialisées, dans laquelle les participants regardaient un court métrage durant l'acquisition des données d'IRMf. Tous les enfants ont complété une tâche explicite du ToM conçue sur mesure afin de mesurer leurs capacités de ToM. 
 
-<img width="568" height="453" alt="image" src="https://github.com/user-attachments/assets/d9af42dc-4751-4684-abcd-c11afb9d28be" />
 <img width="576" height="432" alt="image" src="https://github.com/user-attachments/assets/dba5afca-707e-4e71-b0dc-ac68f8d7c27b" />
+
+<img width="835" height="661" alt="image" src="https://github.com/user-attachments/assets/974efa5a-9365-41b2-97a8-93e69fa65abd" />
+
 <img width="680" height="280" alt="image" src="https://github.com/user-attachments/assets/73727549-1a6a-4ade-97e0-1bc65095cb83" />
 
 
