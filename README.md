@@ -55,8 +55,7 @@ Ma deuxième tâche consitera à créer un connectogramme. En effet, l'utlisatio
 4. Créér une matrice de corrélation des régions du DMN **seulement**
 5. Créer un deuxième connectogramme
 
-<img width="850" height="868" alt="image" src="https://github.com/user-attachments/assets/0d2fb7b6-9f95-4538-9887-3cffd5d3d687" />
-
+<img width="540" height="532" alt="image" src="https://github.com/user-attachments/assets/173b0067-c005-4b62-aa9d-ec5c695a4710" />
 
 #### Si la tâche ne prend pas assez de temps
 * Ajouter des seuils significatifs pour améliorer la visualisation
