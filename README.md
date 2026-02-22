@@ -22,17 +22,17 @@ Mes choix de tâches ont été influencées par les directions futures proposés
 En effet les autrices proposaient:
 * Utiliser un atlas bilatéral pour capturer l'association entre les deux hémisphères et les capacités de TdE
 * Utiliser d'autres algorithmes d'apprentissage automatique pour confirmer nos résultats actuels
-* Se concentrer sur les ROIs principales pour obtenir une compréhension plus approfondie de l'association entre la connectivité fonctionnelle et les capacités de TdE
+* Se concentrer sur les ROIs principales pour obtenir une compréhension plus approfondie de l'association entre la connectivité fonctionnelle et les capacités de ToM
 
 ### Tâche 1: Changement d'atlas
 Dans le projet original l'atlas _BASC_ (Bootstrap Analysis of Stable Clusters) a été utilisé. 
-+ : Ses parcelles sont définies par regroupement de voxels similaires.
-- : Les résulats peuvent être plus difficilement interprétable.
++ : Ses parcelles sont définies par regroupement de voxels similaires
+- : Les résulats peuvent être plus difficilement interprétable
 
 Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des réseaux fonctionnels (DMN, attentionel, frontopariétal, etc) 
-+ : Systèmes cérébraux bien établis dans la littérature ce qui facilite l'interprétation des résultats en lien avec la ToM.
-+ : Yeo est plus répandu dans la littérature sur la cognition sociale.
-+ :  Yeo est directement accessible dans Nilearn.
++ : Systèmes cérébraux bien établis dans la littérature ce qui facilite l'interprétation des résultats en lien avec la ToM
++ : Yeo est plus répandu dans la littérature sur la cognition sociale
++ :  Yeo est directement accessible dans Nilearn
 
 <img width="747" height="401" alt="image" src="https://github.com/user-attachments/assets/a4b17e3c-ce6c-4d0b-b08a-d218ab8592e0" />
 
@@ -43,7 +43,24 @@ Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des ré
 4. Répertorier et documenter les modifications effectuées
 
 ### Tâche 2: Création d'un connectogramme
+Ma deuxième tâche consitera à créer un connectogramme. En effet, l'utlisation de connectogramme on plusieurs points positifs.
++ : Représente les données de manière intuitive
++ : Révèle des relations difficiles à voir dans une matrice
++ : Facilite la communication scientifique
 
+#### Étapes
+1. Créér une matrice de corrélation entre les 7 réseaux
+2. Créer un connectogramme
+3. Extraire le DMN
+4. Créér une matrice de corrélation des régions du DMN **seulement**
+5. Créer un deuxième connectogramme
+
+<img width="850" height="868" alt="image" src="https://github.com/user-attachments/assets/0d2fb7b6-9f95-4538-9887-3cffd5d3d687" />
+
+
+#### Si la tâche ne prend pas assez de temps
+* Ajouter des seuils significatifs pour améliorer la visualisation
+* Créer d'autres types de graphiques
 
 
 ### Tâche 3: Comparaison de modèles de prédiction
