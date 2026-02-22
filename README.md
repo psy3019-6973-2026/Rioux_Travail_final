@@ -18,9 +18,32 @@ Les résultats des modèles d'apprentissage automatique ont révèlé des résul
 J'ai décidé de choisir ce projet puisque mon projet de maîtrise porte également sur l'association entre la théorie de l'esprit chez les enfants et la connectivité fonctionnelle au repos. Même si mon projet de maîtrise n'utilise pas d'algorithmes d'apprentissage automatique, les tâches et les connaissances que j'acquerrai pourront être transférables à mon propre projet.
 
 ## Tâches
+Mes choix de tâches ont été influencées par les directions futures proposés ar les deux autrices. 
+En effet les autrices proposaient:
+* Utiliser un atlas bilatéral pour capturer l'association entre les deux hémisphères et les capacités de TdE
+* Utiliser d'autres algorithmes d'apprentissage automatique pour confirmer nos résultats actuels
+* Se concentrer sur les ROIs principales pour obtenir une compréhension plus approfondie de l'association entre la connectivité fonctionnelle et les capacités de TdE
 
 ### Tâche 1: Changement d'atlas
+Dans le projet original l'atlas _BASC_ (Bootstrap Analysis of Stable Clusters) a été utilisé. 
++ : Ses parcelles sont définies par regroupement de voxels similaires.
+- : Les résulats peuvent être plus difficilement interprétable.
+
+Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des réseaux fonctionnels (DMN, attentionel, frontopariétal, etc) 
++ : Systèmes cérébraux bien établis dans la littérature ce qui facilite l'interprétation des résultats en lien avec la ToM.
++ : Yeo est plus répandu dans la littérature sur la cognition sociale.
++ :  Yeo est directement accessible dans Nilearn.
+
+<img width="747" height="401" alt="image" src="https://github.com/user-attachments/assets/a4b17e3c-ce6c-4d0b-b08a-d218ab8592e0" />
+
+#### Étapes
+1. Reproduire leur notebook
+2. Importer le nouvel atlas Yeo depuis Nilearn
+3. Reproduire le code original en y apportant les modifications nécessaires (correction de bogues, mise à jour du code désuet, etc.)
+4. Répertorier et documenter les modifications effectuées
 
 ### Tâche 2: Création d'un connectogramme
+
+
 
 ### Tâche 3: Comparaison de modèles de prédiction
