@@ -33,6 +33,7 @@ Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des ré
 + : Systèmes cérébraux bien établis dans la littérature ce qui facilite l'interprétation des résultats en lien avec la ToM
 + : Yeo est plus répandu dans la littérature sur la cognition sociale
 + :  Yeo est directement accessible dans Nilearn
++ : Compatible avec NiftiLabelsMasker
 
 <img width="747" height="401" alt="image" src="https://github.com/user-attachments/assets/a4b17e3c-ce6c-4d0b-b08a-d218ab8592e0" />
 
@@ -49,11 +50,13 @@ Ma deuxième tâche consitera à créer un connectogramme. En effet, l'utlisatio
 + : Facilite la communication scientifique
 
 #### Étapes
-1. Créér une matrice de corrélation entre les 7 réseaux
-2. Créer un connectogramme
-3. Extraire le DMN
-4. Créér une matrice de corrélation des régions du DMN **seulement**
-5. Créer un deuxième connectogramme
+1. Extraire le signal de chaque région (tous les réseaux Yeo)
+2. Créer une matrice de corrélation entre les 7 réseaux
+3. Créer un connectogramme
+4. Isoler les régions du DMN **seulement** (avec un masque sur le réseau 1 de Yeo)
+5. Extraire le signal de ces régions
+6. Créer une matrice de corrélation des régions du DMN **seulement**
+7. Créer un deuxième connectogramme
 
 <img width="540" height="532" alt="image" src="https://github.com/user-attachments/assets/173b0067-c005-4b62-aa9d-ec5c695a4710" />
 
@@ -61,5 +64,15 @@ Ma deuxième tâche consitera à créer un connectogramme. En effet, l'utlisatio
 * Ajouter des seuils significatifs pour améliorer la visualisation
 * Créer d'autres types de graphiques
 
-
 ### Tâche 3: Comparaison de modèles de prédiction
+Ma trosième tâche consistera à comparer des modèles de prédiction. Dans l'étude originale, le modèle de prédiction avait été construit avec l'ensemble du cerveau. Mon objectif en effectuant cette comparaison est de déterminer s'il est vraiment nécessaire d'utiliser tout le cerveau ou si l'utilisation de régions clés est suffisante pour prédire la théorie de l'esprit.
+
+#### Étapes:
+1. Entraîner le modèle avec KFold avec les 7 réseaux
+2. Évaluer la performance
+3. Entraîner le modèle avec KFold avec le DMN **seulement**
+4. Évaluer la performance
+5. Comparer les différentes métriques (coefficient de détermination, l'erreur moyenne de prédiction, etc.)
+
+#### Si la tâche ne prend pas assez de temps
+* Retester avec d'autre modèle de prédiction que nous apprendrons. 
