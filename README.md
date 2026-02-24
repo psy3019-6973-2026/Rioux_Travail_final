@@ -1,4 +1,4 @@
-# Travail final :brain:
+# Travail final 🧠🐍 
 
 ## Description du projet
 Pour ce travail j'ai choisi le projet _Unveiling Children's Theory of Mind with rs-fMRI_ créer par Wei-Hung Lin, & Syuan-Yu Lin et publié le 5 juin 2023. Ce projet visait à comprendre si la **connectivité fonctionnelle** peut être utilisée pour prédire la **théorie de l'esprit** (ToM) chez les **enfants**. Ce projet utilise des **algorithmes d'apprentissage automatique** supervisé sur des données d'IRMf pour prédire les capacités de TdE chez les enfants.
@@ -92,3 +92,5 @@ Ma trosième tâche consistera à comparer des modèles de prédiction. Dans l'�
 
 ## Source
 Lin, S.-Y., & Lin, W.-H. (2023, June 23). Unveiling children's theory of mind with rs-fMRI [GitHub repository]. GitHub. https://github.com/WeiHungLin/Unveiling_children_ToM_with_rsfmri 
+
+#FIN
