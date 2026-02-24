@@ -5,8 +5,21 @@ Pour ce travail j'ai choisi le projet _Unveiling Children's Theory of Mind with 
 
 Un jeu de données d'IRMf  au repos prétraité provenant du _Nilearn Development fMRI_ à été sélectionné pour réaliser ce projet. Ce jeu de données d'IRMf-repos est issu d'une étude portant sur le développement de régions cérébrales sociales fonctionnellement spécialisées, dans laquelle les participants regardaient un court métrage durant l'acquisition des données d'IRMf. Tous les enfants ont complété une tâche explicite du ToM conçue sur mesure afin de mesurer leurs capacités de ToM. 
 
+### Données
+122 enfants, âge moyen 6.71 ans (3–12 ans), score ToM moyen = 0.775
+Features : matrice de corrélation entre 64 ROIs
+
+### Préparation
+Atlas BASC 64 parcelles pour extraire les séries temporelles
+
+### Modèle
+Validation croisée 10-folds sur des données d'entraînement (85 sujets)
+Performance test (37 sujets)
 <img width="576" height="432" alt="image" src="https://github.com/user-attachments/assets/dba5afca-707e-4e71-b0dc-ac68f8d7c27b" />
 
+### Interprétation
+Matrice 64×64 pour identifier les connexions les plus prédictives du ToM
+Visualisation via matrice et connectome cérébral
 <img width="835" height="661" alt="image" src="https://github.com/user-attachments/assets/974efa5a-9365-41b2-97a8-93e69fa65abd" />
 
 <img width="680" height="280" alt="image" src="https://github.com/user-attachments/assets/73727549-1a6a-4ade-97e0-1bc65095cb83" />
