@@ -88,4 +88,7 @@ Ma trosième tâche consistera à comparer des modèles de prédiction. Dans l'�
 5. Comparer les différentes métriques (coefficient de détermination, l'erreur moyenne de prédiction, etc.)
 
 #### Si la tâche ne prend pas assez de temps
-* Retester avec d'autre modèle de prédiction que nous apprendrons. 
+* Retester avec d'autre modèle de prédiction que nous apprendrons.
+
+## Source
+Lin, S.-Y., & Lin, W.-H. (2023, June 23). Unveiling children's theory of mind with rs-fMRI [GitHub repository]. GitHub. https://github.com/WeiHungLin/Unveiling_children_ToM_with_rsfmri 
