@@ -93,4 +93,4 @@ Ma trosième tâche consistera à comparer des modèles de prédiction. Dans l'�
 ## Source
 Lin, S.-Y., & Lin, W.-H. (2023, June 23). Unveiling children's theory of mind with rs-fMRI [GitHub repository]. GitHub. https://github.com/WeiHungLin/Unveiling_children_ToM_with_rsfmri 
 
-# FIN
+# FIN 🎉
