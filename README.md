@@ -57,9 +57,9 @@ Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des ré
 4. Répertorier et documenter les modifications effectuées
 
 ### Tâche 2: Création d'un connectogramme
-Ma deuxième tâche consitera à créer un connectogramme. En effet, l'utlisation de connectogramme on plusieurs points positifs.
-+ : Représente les données de manière intuitive
-+ : Révèle des relations difficiles à voir dans une matrice
+Ma deuxième tâche consitera à créer un connectogramme. En effet, l'utlisation de connectogramme a plusieurs points positifs.
++ : Représente les données de manière intuitive, et permet de voir les patterns de connectivité de façon beaucoup plus claire
++ : Révèle des relations difficiles à voir dans une matrice ou illisible sur un connectome
 + : Facilite la communication scientifique
 
 #### Étapes
