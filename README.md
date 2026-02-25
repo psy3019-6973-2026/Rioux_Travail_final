@@ -11,25 +11,25 @@ Un jeu de données d'IRMf  au repos prétraité provenant du _Nilearn Developmen
 * Score TdE moyen = 0,775
 
 ### Préparation
-Utilisation de l'atlas BASC à 64 parcelles pour extraire les séries temporelles
+* Utilisation de l'atlas BASC à 64 parcelles pour extraire les séries temporelles
 
 ### Modèle
-Validation croisée k-fold sur des données d'entraînement: 85 sujets
-Évaluation des performances sur l’ensemble de test: 37 sujets
+* Validation croisée k-fold sur des données d'entraînement: 85 sujets
+* Évaluation des performances sur l’ensemble de test: 37 sujets
 <img width="576" height="432" alt="image" src="https://github.com/user-attachments/assets/dba5afca-707e-4e71-b0dc-ac68f8d7c27b" />
 
 ### Interprétation
-Matrice 64×64 pour identifier les connexions les plus prédictives du ToM
-Visualisation via matrice et connectome cérébral
+* Matrice 64×64 pour identifier les connexions les plus prédictives du ToM
+* Visualisation via matrice et connectome cérébral
 <img width="835" height="661" alt="image" src="https://github.com/user-attachments/assets/974efa5a-9365-41b2-97a8-93e69fa65abd" />
 
 <img width="680" height="280" alt="image" src="https://github.com/user-attachments/assets/73727549-1a6a-4ade-97e0-1bc65095cb83" />
 
 
-Les résultats des modèles d'apprentissage automatique ont révèlé des résultats cohérents en matière de connectivité fonctionnelle. Les auteures ont également observé the rôle primordial du cortex orbitopréfrontal. Cependant, les auteures mentionnnent que leur modèle nécessite encore des améliorations pour prédire les capacités de ToM des enfants à partir de leur connectivité fonctionnelle.
+Les résultats des modèles d’apprentissage automatique ont révélé des résultats cohérents concernant la connectivité fonctionnelle. Les autrices ont également observé le rôle primordial du cortex orbitofrontal. Cependant, elles mentionnent que leur modèle nécessite encore des améliorations pour prédire les capacités de TdE des enfants à partir de leur connectivité fonctionnelle.
 
 ## Choix du projet
-J'ai décidé de choisir ce projet puisque mon projet de maîtrise porte également sur l'association entre la théorie de l'esprit chez les enfants et la connectivité fonctionnelle au repos. Même si mon projet de maîtrise n'utilise pas d'algorithmes d'apprentissage automatique, les tâches et les connaissances que j'acquerrai pourront être transférables à mon propre projet.
+J’ai décidé de choisir ce projet, puisque mon projet de maîtrise porte également sur l’association entre la théorie de l’esprit chez les enfants et la connectivité fonctionnelle au repos. Même si mon projet de maîtrise n’utilise pas d’algorithmes d’apprentissage automatique, les compétences et les connaissances que j’acquerrai pourront être transférées à mon propre projet.
 
 ## Tâches
 Mes choix de tâches ont été influencées par les directions futures proposés ar les deux autrices. 
