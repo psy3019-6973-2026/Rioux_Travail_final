@@ -52,7 +52,7 @@ Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des ré
 <img width="747" height="401" alt="image" src="https://github.com/user-attachments/assets/a4b17e3c-ce6c-4d0b-b08a-d218ab8592e0" />
 
 #### Étapes
-1. Reproduire leur notebook
+1. Créer un notebook
 2. Importer le nouvel atlas Yeo depuis Nilearn
 3. Reproduire le code original en y apportant les modifications nécessaires (correction de bogues, mise à jour du code désuet, etc.)
 4. Répertorier et documenter les modifications effectuées
