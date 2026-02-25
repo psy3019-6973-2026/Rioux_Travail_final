@@ -40,8 +40,8 @@ En effet les autrices proposaient:
 
 ### Tâche 1: Changement d'atlas
 Dans le projet original l'atlas _BASC_ (Bootstrap Analysis of Stable Clusters) a été utilisé. 
-+ : Ses parcelles sont définies par regroupement de voxels similaires
-- : Les résulats peuvent être plus difficilement interprétable
+➕ : Ses parcelles sont définies par regroupement de voxels similaires
+➖ : Les résulats peuvent être plus difficilement interprétable
 
 Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des réseaux fonctionnels (DMN, attentionel, frontopariétal, etc) 
 + : Systèmes cérébraux bien établis dans la littérature ce qui facilite l'interprétation des résultats en lien avec la ToM
@@ -58,14 +58,16 @@ Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des ré
 4. Répertorier et documenter les modifications effectuées
 
 ### Tâche 2: Création d'un connectogramme
-Dans le projet des autrices des matrices et des connectomes ont été utilisé
-+: Fourni beaucoup d'information
--: Peut devenir facilement incompréhensible/illisible
+Dans le projet original, des matrices et des connectomes ont été utilisés
++: Fournissent une grande quantité d’informations
+-: Peuvent devenir facilement incompréhensibles ou illisibles
 
-Ma deuxième tâche consitera à créer un connectogramme. En effet, l'utlisation de connectogramme a plusieurs points positifs.
-+ : Représente les données de manière intuitive, et permet de voir les patterns de connectivité de façon beaucoup plus claire
-+ : Révèle des relations difficiles à voir dans une matrice ou illisible sur un connectome
+Ma deuxième tâche consistera à créer un connectogramme. En effet, l’utilisation d’un connectogramme présente plusieurs avantages
++ : Représente les données de manière intuitive et permet de visualiser les patrons de connectivité de façon beaucoup plus claire
++ : Révèle des relations difficiles à percevoir dans une matrice ou peu visibles sur un connectome
 + : Facilite la communication scientifique
+
+<img width="540" height="532" alt="image" src="https://github.com/user-attachments/assets/173b0067-c005-4b62-aa9d-ec5c695a4710" />
 
 #### Étapes
 1. Extraire le signal de chaque région (tous les réseaux Yeo)
@@ -76,19 +78,17 @@ Ma deuxième tâche consitera à créer un connectogramme. En effet, l'utlisatio
 6. Créer une matrice de corrélation des régions du DMN **seulement**
 7. Créer un deuxième connectogramme
 
-<img width="540" height="532" alt="image" src="https://github.com/user-attachments/assets/173b0067-c005-4b62-aa9d-ec5c695a4710" />
-
 #### Si la tâche ne prend pas assez de temps
 * Ajouter des seuils significatifs pour améliorer la visualisation
 * Créer d'autres types de graphiques
 
 ### Tâche 3: Comparaison de modèles de prédiction
-Ma trosième tâche consistera à comparer des modèles de prédiction. Dans l'étude originale, le modèle de prédiction avait été construit avec l'ensemble du cerveau. Mon objectif en effectuant cette comparaison est de déterminer s'il est vraiment nécessaire d'utiliser tout le cerveau ou si l'utilisation de régions clés est suffisante pour prédire la théorie de l'esprit.
+Ma troisième tâche consistera à comparer différents modèles de prédiction. Dans l’étude originale, le modèle de prédiction a été construit à partir de l’ensemble du cerveau. Mon objectif, en effectuant cette comparaison, est de déterminer s’il est réellement nécessaire d’utiliser l’ensemble du cerveau ou si l’utilisation de régions clés est suffisante pour prédire la théorie de l’esprit.
 
 #### Étapes:
-1. Entraîner le modèle avec KFold avec les 7 réseaux
+1. Entraîner le modèle avec k-fold avec les 7 réseaux
 2. Évaluer la performance
-3. Entraîner le modèle avec KFold avec le DMN **seulement**
+3. Entraîner le modèle avec k-fold avec le DMN **seulement**
 4. Évaluer la performance
 5. Comparer les différentes métriques (coefficient de détermination, l'erreur moyenne de prédiction, etc.)
 
