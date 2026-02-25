@@ -40,14 +40,14 @@ En effet les autrices proposaient:
 
 ### Tâche 1: Changement d'atlas
 Dans le projet original l'atlas _BASC_ (Bootstrap Analysis of Stable Clusters) a été utilisé. 
-* : Ses parcelles sont définies par regroupement de voxels similaires
-* : Les résulats peuvent être plus difficilement interprétable
+* Ses parcelles sont définies par regroupement de voxels similaires
+* Les résulats peuvent être plus difficilement interprétable
 
 Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des réseaux fonctionnels (DMN, attentionel, frontopariétal, etc) 
-+ : Systèmes cérébraux bien établis dans la littérature ce qui facilite l'interprétation des résultats en lien avec la ToM
-+ : Yeo est plus répandu dans la littérature sur la cognition sociale
-+ :  Yeo est directement accessible dans Nilearn
-+ : Compatible avec NiftiLabelsMasker
++ Systèmes cérébraux bien établis dans la littérature ce qui facilite l'interprétation des résultats en lien avec la ToM
++ Yeo est plus répandu dans la littérature sur la cognition sociale
++ Yeo est directement accessible dans Nilearn
++ Compatible avec NiftiLabelsMasker
 
 <img width="747" height="401" alt="image" src="https://github.com/user-attachments/assets/a4b17e3c-ce6c-4d0b-b08a-d218ab8592e0" />
 
@@ -59,13 +59,13 @@ Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des ré
 
 ### Tâche 2: Création d'un connectogramme
 Dans le projet original, des matrices et des connectomes ont été utilisés
-+: Fournissent une grande quantité d’informations
--: Peuvent devenir facilement incompréhensibles ou illisibles
++ Fournissent une grande quantité d’informations
+- Peuvent devenir facilement incompréhensibles ou illisibles
 
 Ma deuxième tâche consistera à créer un connectogramme. En effet, l’utilisation d’un connectogramme présente plusieurs avantages
-+ : Représente les données de manière intuitive et permet de visualiser les patrons de connectivité de façon beaucoup plus claire
-+ : Révèle des relations difficiles à percevoir dans une matrice ou peu visibles sur un connectome
-+ : Facilite la communication scientifique
++ Représente les données de manière intuitive et permet de visualiser les patrons de connectivité de façon beaucoup plus claire
++ Révèle des relations difficiles à percevoir dans une matrice ou peu visibles sur un connectome
++ Facilite la communication scientifique
 
 <img width="540" height="532" alt="image" src="https://github.com/user-attachments/assets/173b0067-c005-4b62-aa9d-ec5c695a4710" />
 
