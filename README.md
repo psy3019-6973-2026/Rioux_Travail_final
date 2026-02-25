@@ -40,8 +40,8 @@ En effet les autrices proposaient:
 
 ### Tâche 1: Changement d'atlas
 Dans le projet original l'atlas _BASC_ (Bootstrap Analysis of Stable Clusters) a été utilisé. 
-➕ : Ses parcelles sont définies par regroupement de voxels similaires
-➖ : Les résulats peuvent être plus difficilement interprétable
+* ➕ : Ses parcelles sont définies par regroupement de voxels similaires
+* ➖ : Les résulats peuvent être plus difficilement interprétable
 
 Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des réseaux fonctionnels (DMN, attentionel, frontopariétal, etc) 
 + : Systèmes cérébraux bien établis dans la littérature ce qui facilite l'interprétation des résultats en lien avec la ToM
