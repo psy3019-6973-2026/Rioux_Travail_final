@@ -16,7 +16,7 @@ Un jeu de données d'IRMf  au repos prétraité provenant du _Nilearn Developmen
 ### Modèle
 * Validation croisée k-fold sur des données d'entraînement: 85 sujets
 * Évaluation des performances sur l’ensemble de test: 37 sujets
-<img width="576" height="432" alt="image" src="https://github.com/user-attachments/assets/dba5afca-707e-4e71-b0dc-ac68f8d7c27b" />
+<img width="567" height="437" alt="image" src="https://github.com/user-attachments/assets/31ac7395-484a-4642-bc87-3aef2d213737" />
 
 ### Interprétation
 * Matrice 64×64 pour identifier les connexions les plus prédictives du ToM
