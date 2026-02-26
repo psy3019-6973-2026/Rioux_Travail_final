@@ -39,7 +39,7 @@ En effet les autrices proposaient:
 * Utiliser d'autres algorithmes d'apprentissage automatique pour confirmer nos résultats actuels
 * Se concentrer sur les ROIs principales pour obtenir une compréhension plus approfondie de l'association entre la connectivité fonctionnelle et les capacités de TdE
 
-### Tâche 1: Changement d'atlas
+### Tâche 1: Changement d'atlas et reproduction
 Dans le projet original l'atlas _BASC_ (Bootstrap Analysis of Stable Clusters) a été utilisé. 
 * Ses parcelles sont définies par regroupement de voxels similaires
 * Les résulats peuvent être plus difficilement interprétable
