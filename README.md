@@ -11,7 +11,7 @@ Un jeu de données d'IRMf  au repos prétraité provenant du _Nilearn Developmen
 * Score TdE moyen = 0,775
 
 ### Préparation
-* Utilisation de l'atlas BASC à 64 parcelles pour extraire les séries temporelles
+* Utilisation de l'atlas BASC (Bootstrap Analysis of Stable Clusters) à 64 parcelles pour extraire les séries temporelles
 
 ### Modèle
 * Validation croisée k-fold sur des données d'entraînement: 85 sujets
