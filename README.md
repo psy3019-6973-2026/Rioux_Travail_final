@@ -16,6 +16,7 @@ Un jeu de données d'IRMf  au repos prétraité provenant du _Nilearn Developmen
 ### Modèle
 * Validation croisée k-fold sur des données d'entraînement: 85 sujets
 * Évaluation des performances sur l’ensemble de test: 37 sujets
+* R2 = 0.365
 <img width="567" height="437" alt="image" src="https://github.com/user-attachments/assets/31ac7395-484a-4642-bc87-3aef2d213737" />
 
 ### Interprétation
