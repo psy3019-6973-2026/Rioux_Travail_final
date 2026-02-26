@@ -1,7 +1,7 @@
 # Projet de session🧠🐍 
 
 ## Description du projet
-Pour ce travail, j'ai choisi le projet _Unveiling Children's Theory of Mind with rs-fMRI_ créé par Wei-Hung Lin, & Syuan-Yu Lin et publié le 5 juin 2023. Ce projet visait à comprendre si la **connectivité fonctionnelle** peut être utilisée pour prédire la **théorie de l'esprit** (TdE) chez les **enfants**. Ce projet utilisait des **algorithmes d'apprentissage automatique supervisé** appliqués à des données d'IRMf afin de prédire les capacités de ToM chez les enfants.
+Pour ce travail, j'ai choisi le projet _Unveiling Children's Theory of Mind with rs-fMRI_ créé par Wei-Hung Lin, & Syuan-Yu Lin et publié le 1 juin 2023. Ce projet visait à comprendre si la **connectivité fonctionnelle** peut être utilisée pour prédire la **théorie de l'esprit** (TdE) chez les **enfants**. Ce projet utilisait des **algorithmes d'apprentissage automatique supervisé** appliqués à des données d'IRMf afin de prédire les capacités de ToM chez les enfants.
 
 Un jeu de données d'IRMf  au repos prétraité provenant du _Nilearn Development fMRI_ à été sélectionné pour réaliser ce projet. Ce jeu de données d'IRMf-repos est issu d'une étude portant sur le développement de régions cérébrales sociales fonctionnellement spécialisées, dans laquelle les participants regardaient un court métrage durant l'acquisition des données d'IRMf. Tous les enfants ont complété une tâche explicite du TdE conçue sur mesure afin de mesurer leurs capacités de TdE. 
 
@@ -63,22 +63,23 @@ Ma deuxième tâche consistera à comparer différents modèles de prédiction. 
 
 #### Étapes:
 1. Évaluer la performance du modèle de prédiction créer dans la tâche 1
-2. Isoler les régions du DMN **seulement** (avec un masque sur le réseau 1 de Yeo)
+2. Isoler les régions du DMN **seulement** (avec un masque)
 3. Entraîner le modèle avec k-fold avec le DMN **seulement**
 4. Évaluer la performance
 5. Comparer les différentes métriques (ex: R2)
 
 #### Si la tâche ne prend pas assez de temps
+* Séparer les enfants par groupe d'âge et voir si le modèle prédit bien le TdE à tous les âges
 * Comparer tous les réseaux
 * Créer un tableau comparatif des R² pour chaque réseau
-* Retester avec d'autre modèle de prédiction que nous apprendrons.
+* Retester avec d'autre modèle de prédiction que nous apprendrons
 
 ### Tâche 3: Création d'un connectogramme
 Dans le projet original, des matrices et des connectomes ont été utilisés
 + Fournissent une grande quantité d’informations
 - Peuvent devenir facilement incompréhensibles ou illisibles
 
-Ma troisème tâche consistera à créer un connectogramme. En effet, l’utilisation d’un connectogramme présente plusieurs avantages
+Ma troisème tâche consistera à créer un connectogramme. En effet, l’utilisation d’un connectogramme présente plusieurs avantages :
 + Représente les données de manière intuitive et permet de visualiser les patrons de connectivité de façon beaucoup plus claire
 + Révèle des relations difficiles à percevoir dans une matrice ou peu visibles sur un connectome
 + Facilite la communication scientifique
