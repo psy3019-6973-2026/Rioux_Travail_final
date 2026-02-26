@@ -45,7 +45,6 @@ Dans le projet original l'atlas _BASC_ (Bootstrap Analysis of Stable Clusters) a
 
 Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des réseaux fonctionnels (DMN, attentionel, frontopariétal, etc) 
 + Systèmes cérébraux bien établis dans la littérature ce qui facilite l'interprétation des résultats en lien avec la ToM
-+ Yeo est plus répandu dans la littérature sur la cognition sociale
 + Yeo est directement accessible dans Nilearn
 + Compatible avec NiftiLabelsMasker
 
