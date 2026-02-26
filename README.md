@@ -53,28 +53,32 @@ Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des ré
 
 #### Étapes
 1. Créer un notebook
-2. Importer le nouvel atlas Yeo depuis Nilearn
+2. Importer le nouvel atlas Yeo 7 region depuis Nilearn
 3. Reproduire le code original en y apportant les modifications nécessaires (correction de bogues, mise à jour du code désuet, etc.)
 4. Répertorier et documenter les modifications effectuées
+
+➡️ modèle de régression, matrice 7x7, connectome
 
 ### Tâche 2: Comparaison de modèles de prédiction
 Ma deuxième tâche consistera à comparer différents modèles de prédiction. Dans l’étude originale, le modèle de prédiction a été construit à partir de l’ensemble du cerveau. Mon objectif, en effectuant cette comparaison, est de déterminer s’il est réellement nécessaire d’utiliser l’ensemble du cerveau ou si l’utilisation de régions clés est suffisante pour prédire la théorie de l’esprit.
 
 #### Étapes:
-1. Entraîner le modèle avec k-fold avec les 7 réseaux
-2. Évaluer la performance
+1. Évaluer la performance du modèle de prédiction créer dans la tâche 1
+2. Isoler les régions du DMN **seulement** (avec un masque sur le réseau 1 de Yeo)
 3. Entraîner le modèle avec k-fold avec le DMN **seulement**
 4. Évaluer la performance
-5. Comparer les différentes métriques (coefficient de détermination, l'erreur moyenne de prédiction, etc.)
+5. Comparer les différentes métriques (ex: R2)
 
 #### Si la tâche ne prend pas assez de temps
+* Comparer tous les réseaux
+* Créer un tableau comparatif des R² pour chaque réseau
 * Retester avec d'autre modèle de prédiction que nous apprendrons.
-### Tâche 2: Création d'un connectogramme
+
+### Tâche 3: Création d'un connectogramme
 Dans le projet original, des matrices et des connectomes ont été utilisés
 + Fournissent une grande quantité d’informations
 - Peuvent devenir facilement incompréhensibles ou illisibles
 
-### Tâche 3: Création d'un connectogramme
 Ma troisème tâche consistera à créer un connectogramme. En effet, l’utilisation d’un connectogramme présente plusieurs avantages
 + Représente les données de manière intuitive et permet de visualiser les patrons de connectivité de façon beaucoup plus claire
 + Révèle des relations difficiles à percevoir dans une matrice ou peu visibles sur un connectome
@@ -83,16 +87,15 @@ Ma troisème tâche consistera à créer un connectogramme. En effet, l’utilis
 <img width="540" height="532" alt="image" src="https://github.com/user-attachments/assets/173b0067-c005-4b62-aa9d-ec5c695a4710" />
 
 #### Étapes
-1. Extraire le signal de chaque région (tous les réseaux Yeo)
-2. Créer une matrice de corrélation entre les 7 réseaux
-3. Créer un connectogramme
-4. Isoler les régions du DMN **seulement** (avec un masque sur le réseau 1 de Yeo)
-5. Extraire le signal de ces régions
-6. Créer une matrice de corrélation des régions du DMN **seulement**
-7. Créer un deuxième connectogramme
+1. Créer un connectogramme à partir de la matrice crée dans la tâche 1
+2. Isoler les régions du DMN **seulement** (avec un masque sur le réseau 1 de Yeo)
+3. Extraire le signal de ces régions
+4. Créer une matrice de corrélation des régions du DMN **seulement**
+5. Créer un deuxième connectogramme
 
 #### Si la tâche ne prend pas assez de temps
 * Ajouter des seuils significatifs pour améliorer la visualisation
+* Faire une version interactive
 * Créer d'autres types de graphiques
 
 ## Références
