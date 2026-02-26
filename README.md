@@ -56,7 +56,7 @@ Pour mon projet l'atlas _Yeo_ sera donc utlisé. Cet atlas est basé sur des ré
 3. Reproduire le code original en y apportant les modifications nécessaires (correction de bogues, mise à jour du code désuet, etc.)
 4. Répertorier et documenter les modifications effectuées
 
-➡️ modèle de régression, matrice 7x7, connectome
+➡️ modèle de prédiction, matrice 7x7, connectome
 
 ### Tâche 2: Comparaison de modèles de prédiction
 Ma deuxième tâche consistera à comparer différents modèles de prédiction. Dans l’étude originale, le modèle de prédiction a été construit à partir de l’ensemble du cerveau. Mon objectif, en effectuant cette comparaison, est de déterminer s’il est réellement nécessaire d’utiliser l’ensemble du cerveau ou si l’utilisation de régions clés est suffisante pour prédire la théorie de l’esprit.
